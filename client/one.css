@@ -1,0 +1,134 @@
+body
+{
+	background-color: #F0F0F0;
+	overflow-x: none;
+}
+
+.navbar
+{
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	font-size: 4vh;
+	font-weight: 700;
+	position: relative;
+	top:-5px;
+	width : 100%;
+	height:7vh ;
+	background-color: #b01cc7;
+	color:white;
+}
+
+.lblnav
+{
+	position: relative;
+	top: 1vh;
+}
+
+#lblnav01
+{
+	float: left;
+	margin-left: 20px;
+	letter-spacing: 3px;
+}
+
+#lblnav02
+{
+
+}
+
+#lblnav03
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 20px;
+	float: right;
+	cursor: pointer;
+}
+
+#lblnav03:hover
+{
+	background-color: rgba(227, 48, 255, 0.3);
+}
+
+.lblnav03-focus
+{
+	background-color: rgba(227, 48, 255, 0.5);
+}
+
+
+.hide-dropd
+{
+	width:0px;
+}
+
+.show-dropd
+{
+	width:190px;
+}
+
+#dropd
+{
+	overflow: hidden;
+	height: auto;
+	float:right;
+	background-color: white;
+}
+
+#dropdcont
+{
+	padding: 20px 5px 20px 5px;
+}
+
+#lbluid
+{
+	max-width:85%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*#ltside
+{
+	text-align: center;
+	width:50%;
+	height: 90vh;
+	background-color: white;
+}
+
+#lbltitle
+{	
+	font-family: ;
+	font-size: 190px;
+}
+*/	
+#butsub:enabled
+{
+	width: 10%
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+	background-color: #b01cc7; 
+}
+
+#butsub:disabled
+{
+	background-color: #D3D3D3;
+}
+
+#ques
+{
+	width: 100%;
+	height: 50vh;
+	background-color: white;
+}
+
+#qnum
+{
+	margin-top: 5px;
+	background-color: white;
+	width: 100%;
+	height: 39vh;
+}
+
